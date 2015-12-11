@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "MyEpisodes Extension",
+  "version": "1.0",
+  "description": "Enhances MyEpisodes functionality",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.myepisodes.com/epslist/"
+      ],
+      "js": [
+        "jquery-2.1.4.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "48": "download.png"
+  }
+}
