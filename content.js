@@ -20,6 +20,7 @@ function Tracker(shortname, icon, searchurl, useNumbers) {
 		var tUseNumbers = this.useNumbers;
 		          
 		// Add episode numbers if enabled
+		var search;
 		if(tUseNumbers){
 			search = query + " " + episode;
 		} else {
